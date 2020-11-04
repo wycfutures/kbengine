@@ -1,3 +1,0 @@
-[submodule "Exodus_Server_Private"]
-	path = Exodus_Server_Private
-	url = git@192.168.1.109:wyc/Exodus_Server_Private.git
