@@ -143,7 +143,8 @@ if django.VERSION < (1, 7):
 # 注意：此机制只能在独立运行时设置成true，
 #		如果部署到apache等http服务器上以后此参数仍然为True，
 #		有可能会造成大量的udp广播包
-USE_MACHINES_BUFFER = True
+# USE_MACHINES_BUFFER = True
+USE_MACHINES_BUFFER = False
 
 # FLOAT；单位：秒
 # 当多长时间没有查询Machines相关数据时停止缓冲机制，
