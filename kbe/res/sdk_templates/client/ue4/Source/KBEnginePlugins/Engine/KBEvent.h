@@ -12,14 +12,16 @@
 事件模块
 事件的数据基础类， 不同事件需要实现不同的数据类
 */
-UCLASS(Blueprintable, BlueprintType)
+
+// UCLASS(Blueprintable, BlueprintType)
+UCLASS()
 class KBENGINEPLUGINS_API UKBEventData : public UObject
 {
 	GENERATED_BODY()
 
 public:
 	// 事件名称，可用于对事件类型进行判断，该名称由事件触发时事件系统进行填充
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = KBEngine)
+	// UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = KBEngine)
 	FString eventName;
 };
 
